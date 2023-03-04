@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px auto;
+        }
+        #header{ grid-area: item1;}
+        #menu{ grid-area: item2;}
+        #content{ grid-area: item3;}
+        #footer{ grid-area: item4;}
+
+        #wrapper{
+            display: grid;
+            grid-template-areas: 
+            'item1 item1 item1 item1 item1'
+            'item2 item3 item3 item3 item3'
+            'item2 item4 item4 item4 item4';
+            gap: 5px;
+            background-color: rgb(188, 170, 211);
+            padding: 5px;
+        }
+        #wrapper > div{
+            border: 3px;
+            border-style: solid;
+            border-color: rgb(150, 19, 106);
+            text-align: center;
+            align-items: center;
+        }
+
+        #nav {
+            padding: 0px;
+            background-color: #000;
+            display: flex;
+            justify-content: flex-start;
+            list-style-type: none;
+        }
+
+        #nav li{
+            padding: 10px;
+        }
+
+        #nav li a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #nav li:hover a{
+            
+            display: inline-block;
+            background-color: #fff;
+            color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SEVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+                <li><a href="">MORE</a></li>
+            </ul>
+        </div>
+
+        <div id="menu">
+            <h1>MENU</h1>
+        </div>
+
+        <div id="content">
+            <h1>CONTENT</h1>
+        </div>
+        
+        <div id="footer">
+            <h1>FOOTER</h1>
+        </div>
+    </div>
+</body>
+</html>
