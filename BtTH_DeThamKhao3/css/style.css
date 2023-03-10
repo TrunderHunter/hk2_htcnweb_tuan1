@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+
+#wrapper{
+    height: 700px;
+    width: 960px;
+    background-color: antiquewhite;
+}
+
+header{
+    height: 150px;
+    width: 960px;
+    background-color: #294e79;
+    position: relative;
+}
+
+header .headerImg{
+    position: absolute;
+    left: 0;
+    top: 21px;
+    height: 100px;
+    width: 100px;
+}
+
+header .heading{
+    color: #fff;
+    position: absolute;
+    left: 103px;
+    top: 35px;
+}
+
+header .descHeading{
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    left: 105px;
+    top: 67px;
+}
+
+header #frmHeader{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+header .txtName, header .btnHeader{
+    background-color: #092e58;
+    border: 1.5px inset #85aedd;
+    color: #fff;
+    padding: 2px 4px;
+}
+
+header .btnHeader{
+    
+}
+
+header .nav{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+header .nav li{
+    display: inline-block;
+    background-color: #115baf;
+    padding: 12px 18px;
+}
+
+header .nav li:hover{
+    background-color: #a7c6e9;
+}
+
+header .nav li:hover a{
+    color: yellow;
+    font-style: italic;
+}
+
+header .nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#container{
+    position: relative;
+}
+
+.cntContact{
+    position: absolute;
+    top: 74px;
+    left: 10px;
+    width: 30%;
+}
+
+#container .prnHeading{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.textInput{
+    margin: 10px 0px;
+    width: 45%;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.txtIntroduce{
+    text-align: justify;
+    color: red;
+    font-style: italic;
+    text-shadow: 3px 3px 5px #2a950f;
+}
+
+.ipLable{
+
+}
+
+.txtIp{
+    width: 100%;
+    height: 22px;
+}
+
+.wrapInput{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.wrapInput input{
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
+
+.txtIpMess{
+    width: 282px;
+    height: 100px;
+}
+
+
+.btnContact{
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.btnContact button{
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+}
+
+.btnSubmit{
+
+}
+
+.btnReset{
+
+}
